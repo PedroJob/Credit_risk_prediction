@@ -1,0 +1,48 @@
+[ 2023-11-09 09:29:10,149 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.15.2.143:5000
+[ 2023-11-09 09:29:10,149 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-11-09 09:29:10,315 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:29:10] "GET / HTTP/1.1" 200 -
+[ 2023-11-09 09:29:10,392 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:29:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-11-09 09:29:14,638 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:29:14] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:29:36,721 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:30:04,268 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:30:26,466 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:30:40,012 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:30:40,759 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:30:59,198 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:30:59,198 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:30:59,200 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:30:59,206 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:30:59,206 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:30:59,209 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:30:59,221 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:30:59,222 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:30:59,222 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:30:59,226 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:30:59,226 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:30:59,231 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:30:59,236 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:30:59] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:30:59,241 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:30:59,243 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:30:59,254 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:30:59,256 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:30:59,260 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:30:59,265 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:30:59,266 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:30:59] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:30:59,268 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:30:59,268 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:30:59,268 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:30:59,268 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:30:59,269 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:30:59,270 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:30:59,270 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:30:59] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:30:59,285 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:30:59,285 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:30:59,289 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:30:59,296 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:30:59,297 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:30:59,303 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:30:59] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:30:59,307 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:30:59,308 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:30:59] "POST /predictdata HTTP/1.1" 200 -

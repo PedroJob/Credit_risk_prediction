@@ -1,0 +1,32 @@
+[ 2023-11-09 09:39:10,451 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.15.2.143:5000
+[ 2023-11-09 09:39:10,451 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-11-09 09:39:18,771 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:39:18] "GET / HTTP/1.1" 200 -
+[ 2023-11-09 09:39:20,751 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:39:20] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:39:39,683 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:39:42,497 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:39:42,497 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:39:42,497 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:39:42,513 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:39:42,513 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:39:42,519 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:39:42,519 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:39:42] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:40:06,443 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 09:40:06,466 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 09:40:06,466 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 09:40:06,467 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 09:40:06,476 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 09:40:06,476 ] 86 root - INFO - Predicting.
+[ 2023-11-09 09:40:06,484 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 09:40:06,485 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:40:06] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:19,748 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:19] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:20,913 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:20] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:21,445 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:21] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:21,809 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:21] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:25,592 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:25] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:26,119 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:26] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:26,400 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:26] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:26,952 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:26] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 09:52:27,402 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 09:52:27] "GET /predictdata HTTP/1.1" 200 -

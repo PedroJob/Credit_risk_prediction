@@ -1,0 +1,17 @@
+[ 2023-11-09 18:44:07,532 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.64:5000
+[ 2023-11-09 18:44:07,532 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-11-09 18:44:13,264 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 18:44:13] "GET / HTTP/1.1" 200 -
+[ 2023-11-09 18:44:14,552 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 18:44:14] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 18:44:30,980 ] 68 root - INFO - Load model and preprocessor objects.
+[ 2023-11-09 18:44:32,091 ] 73 root - INFO - Model and preprocessor succesfully loaded.
+[ 2023-11-09 18:44:32,091 ] 75 root - INFO - Mapping sex variable.
+[ 2023-11-09 18:44:32,092 ] 80 root - INFO - Preprocessing the input data.
+[ 2023-11-09 18:44:32,105 ] 84 root - INFO - Input data prepared for prediction.
+[ 2023-11-09 18:44:32,105 ] 86 root - INFO - Predicting.
+[ 2023-11-09 18:44:32,112 ] 98 root - INFO - Prediction successfully made.
+[ 2023-11-09 18:44:32,113 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 18:44:32] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-09 18:49:09,111 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 18:49:09] "GET / HTTP/1.1" 200 -
+[ 2023-11-09 18:49:10,342 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 18:49:10] "GET /predictdata HTTP/1.1" 200 -
