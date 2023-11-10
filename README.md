@@ -48,7 +48,7 @@ python application.py
 Abra no seu navegador o seguinte URL:  [http://127.0.0.1:5000/]()
 
 6. Lembre-se de fechar a aplicação no final da execução
-7. Deactivate the Virtual Environment:
+7. Desative o ambiente virtual:
 
 <pre>
 deactivate
